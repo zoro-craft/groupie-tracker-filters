@@ -229,6 +229,46 @@ a {
   color: var(--text);
 }
 
+/* blur image flagged for nudity */
+img[alt="Mamonas Assassinas"] {
+  filter: blur(18px);
+}
+
+/* label over the blurred image */
+.card:has(img[alt="Mamonas Assassinas"]),
+.artist-header:has(img[alt="Mamonas Assassinas"]) {
+  position: relative;
+}
+
+.card:has(img[alt="Mamonas Assassinas"])::after,
+.artist-header:has(img[alt="Mamonas Assassinas"])::after {
+  content: "Sensitive content";
+  position: absolute;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #fff;
+  font-size: 15px;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+  text-shadow: 0 2px 8px rgba(0, 0, 0, 0.9);
+  pointer-events: none;
+}
+
+.card:has(img[alt="Mamonas Assassinas"])::after {
+  top: 0;
+  left: 0;
+  right: 0;
+  height: 220px;
+}
+
+.artist-header:has(img[alt="Mamonas Assassinas"])::after {
+  top: 0;
+  left: 0;
+  bottom: 0;
+  width: 340px;
+}
+
 /* ========== error page styles ========== */
 
 /* error page container */
