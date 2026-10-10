@@ -9,6 +9,7 @@
   --text: #e5e7eb;
   --muted: #9ca3af;
   --border: rgba(255, 255, 255, 0.08);
+  color-scheme: dark;
 }
 
 /* reset - remove default browser styles */
@@ -405,6 +406,25 @@ img[alt="Mamonas Assassinas"] {
   margin-bottom: 12px;
 }
 
+.filter-group input[type="number"],
+.filter-group input[type="date"],
+.filter-group input[type="text"] {
+  width: 140px;
+  padding: 8px 12px;
+  margin: 4px 0;
+  background: rgba(255, 255, 255, 0.05);
+  border: 1px solid var(--border);
+  border-radius: 8px;
+  color: var(--text);
+  font-size: 14px;
+  outline: none;
+  transition: border-color 0.2s ease;
+}
+
+.filter-group input:focus {
+  border-color: var(--accent);
+}
+
 /* CHECKBOX GROUP */
 
 .checkbox-group {
@@ -413,13 +433,17 @@ img[alt="Mamonas Assassinas"] {
 }
 
 .checkbox-group label {
-  font-size: 14px;
+  font-size: 16px;
   color: var(--text);
   cursor: pointer;
 }
 
 .checkbox-group input {
   margin-right: 6px;
+  accent-color: var(--accent);
+  width: 17px;
+  height: 17px;
+  vertical-align: middle;
 }
 
 /* BUTTONS */
