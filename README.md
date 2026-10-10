@@ -36,6 +36,19 @@
   ```
 * Browse the site to view the data retrieved and displayed from the API
 
+## 🐳 Docker
+
+Prebuilt images are published on Docker Hub:
+
+* AMD64 (x86-64): `elmehdirezoug/groupie-tracker-filters:1.0.0`
+* ARM64 (Apple Silicon, Raspberry Pi, etc.): `elmehdirezoug/groupie-tracker-arm:1.0.0`
+
+Run with Docker Compose:
+
+```sh
+docker compose up -d
+```
+
 ## 📂 Project Structure
 
 ```
