@@ -40,7 +40,7 @@
 
 Prebuilt images are published on Docker Hub:
 
-* AMD64 (x86-64): `elmehdirezoug/groupie-tracker-filters:1.0.0`
+* AMD64 (x86-64): `elmehdirezoug/groupie-tracker:1.0.0`
 * ARM64 (Apple Silicon, Raspberry Pi, etc.): `elmehdirezoug/groupie-tracker-arm:1.0.0`
 
 Run with Docker Compose:

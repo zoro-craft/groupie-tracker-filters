@@ -3,7 +3,7 @@ name: groupie-tracker
 services:
   groupie-tracker:
     build: .
-    image: elmehdirezoug/groupie-tracker-filters:1.0.0
+    image: elmehdirezoug/groupie-tracker:1.0.0
     container_name: groupie-tracker
     restart: unless-stopped
     ports:
