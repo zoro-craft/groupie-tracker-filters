@@ -2,6 +2,11 @@
 
 > **Live demo:** https://artist-explorer.elmehdirezoug.dev
 
+## Authors
+
+- [Taha Hakkou (@thakkou)](https://github.com/thakkou) — captain
+- [Elmehdi Rezoug (@zoro-craft)](https://github.com/zoro-craft)
+
 ## 📖 Description
 
 **Groupie Trackers** is a web-based project that focuses on consuming a provided API and manipulating the data it returns in order to build an informative and interactive website. The application retrieves structured data from the API, processes it, and displays it in a clear and user-friendly format.
@@ -18,11 +23,6 @@
 * Programming Language: Golang & Standard librairies
 * Web Technologies: HTML, CSS
 * API: Provided Groupie Trackers API
-
-## Authors
-
-* **[thakkou](https://github.com/Taha-Hakkou)** - captain
-* **[erezzoug](https://github.com/elmehdi-rezoug)**
 
 ## 🌐 Usage: how to run
 
